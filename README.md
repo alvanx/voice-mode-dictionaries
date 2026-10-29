@@ -1,7 +1,8 @@
 # Voice Mode keyboard dictionaries
 
 Word lists the Voice Mode keyboards download when someone adds a typing language: suggestions,
-autocorrect, next-word prediction and spell check. Only data lives here, no app code.
+autocorrect, next-word prediction and spell check. Also the one small model file that exists nowhere
+else (Smart Turn). Only data lives here, no app code.
 
 | Folder | What | Used by |
 | --- | --- | --- |
@@ -10,6 +11,7 @@ autocorrect, next-word prediction and spell check. Only data lives here, no app 
 | `trigram-dicts-v1/` | Word triples per language, for next-word guesses | Android |
 | `language-packs-v1/` | Chinese pinyin table | Android |
 | `ios-dicts-v1/` | The same word lists in the iPhone keyboard's format | iPhone |
+| `whisper-models-v1/` | Smart Turn v3.2 (decides whether a spoken thought is finished, for long dictations) | Android |
 
 The apps download from `https://raw.githubusercontent.com/alvanx/voice-mode-dictionaries/main/<folder>/<file>`
 and check each file's exact size and SHA-256 fingerprint, which are written into the app.
