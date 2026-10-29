@@ -1,0 +1,14 @@
+Voice Mode keyboard dictionaries
+
+The files in glide-dicts-v1/, bigram-dicts-v1/, trigram-dicts-v1/ and language-packs-v1/ are
+unchanged copies of the release files of the same names published by DevEmperor in Dictate Keyboard
+(https://github.com/DevEmperor/DictateKeyboard), licensed under the Apache License 2.0 (see LICENSE).
+Copied on 2026-10-29; every file matched the size and SHA-256 that Dictate's app checks.
+
+The files in ios-dicts-v1/ are the same word lists converted to the iPhone keyboard's file format.
+
+The words themselves come from public data sets with their own terms, listed in attribution/:
+  - OPUS OpenSubtitles frequency lists (J. Tiedemann, LREC 2012)
+  - Leipzig Corpora Collection, CC BY (Universität Leipzig / Sächsische Akademie der Wissenschaften / InfAI)
+  - Hunspell dictionaries, used at build time only to fix capitals and filter noise
+  - CC-CEDICT, CC BY-SA 4.0 (the Chinese pinyin table, which carries the same licence)
